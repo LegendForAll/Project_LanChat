@@ -133,7 +133,7 @@ namespace Lan_Messenger
 			channel = new HttpChannel();
 			ChannelServices.RegisterChannel(channel);			
 			
-			statusBar.Text= "Loading network setup ...";
+			statusBar.Text="Đang tải thiết lập mạng...";
 			if(File.Exists("NetSetting.Dat"))
 			{
 				FileStream fs = new FileStream("NetSetting.Dat",FileMode.Open);
@@ -146,7 +146,7 @@ namespace Lan_Messenger
 			{
 				hostIP="127.0.0.1";
 			}
-			statusBar.Text= "Network settings loaded.";
+			statusBar.Text="Đã tải thiết lập mạng.";
 			try
 			{
 				MarshalByRefObject obj = (MarshalByRefObject)RemotingServices.Connect(typeof(IServer),"http://"+hostIP+":9090/Server");
@@ -198,8 +198,8 @@ namespace Lan_Messenger
 		private void InitializeComponent()
 		{
             this.components = new System.ComponentModel.Container();
+            BunifuAnimatorNS.Animation animation1 = new BunifuAnimatorNS.Animation();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            BunifuAnimatorNS.Animation animation2 = new BunifuAnimatorNS.Animation();
             this.mainMenu = new System.Windows.Forms.MainMenu(this.components);
             this.menuChat = new System.Windows.Forms.MenuItem();
             this.menuSendMessage = new System.Windows.Forms.MenuItem();
@@ -413,7 +413,7 @@ namespace Lan_Messenger
             // menuItem11
             // 
             this.menuItem11.Index = 0;
-            this.menuItem11.Text = "Setting";
+            this.menuItem11.Text = "Options";
             this.menuItem11.Click += new System.EventHandler(this.menuItem11_Click);
             // 
             // menuNetworkSettings
@@ -557,7 +557,7 @@ namespace Lan_Messenger
             // 
             this.notifyIcon.ContextMenu = this.notifyMenu;
             this.notifyIcon.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIcon.Icon")));
-            this.notifyIcon.Text = "MESSENGER";
+            this.notifyIcon.Text = "Messenger";
             this.notifyIcon.Visible = true;
             this.notifyIcon.DoubleClick += new System.EventHandler(this.notifyIcon_DoubleClick);
             // 
@@ -601,14 +601,14 @@ namespace Lan_Messenger
             // notMenuSignIn
             // 
             this.notMenuSignIn.Index = 4;
-            this.notMenuSignIn.Text = "Log in";
+            this.notMenuSignIn.Text = "Đăng nhập";
             this.notMenuSignIn.Click += new System.EventHandler(this.menuChangeUser_Click);
             // 
             // notMenuSignOut
             // 
             this.notMenuSignOut.Enabled = false;
             this.notMenuSignOut.Index = 5;
-            this.notMenuSignOut.Text = "Log out";
+            this.notMenuSignOut.Text = "Đăng xuất";
             this.notMenuSignOut.Click += new System.EventHandler(this.menuSignOut_Click);
             // 
             // menuItem15
@@ -619,19 +619,19 @@ namespace Lan_Messenger
             // notMenuAbout
             // 
             this.notMenuAbout.Index = 7;
-            this.notMenuAbout.Text = "Information";
+            this.notMenuAbout.Text = "Thông tin";
             this.notMenuAbout.Click += new System.EventHandler(this.menuAbout_Click);
             // 
             // notMenuMin
             // 
             this.notMenuMin.Index = 8;
-            this.notMenuMin.Text = "Minimize to system tray";
+            this.notMenuMin.Text = "Thu nhỏ xuống khay hệ thống";
             this.notMenuMin.Click += new System.EventHandler(this.menuMin_Click);
             // 
             // notMenuExit
             // 
             this.notMenuExit.Index = 9;
-            this.notMenuExit.Text = "Exit";
+            this.notMenuExit.Text = "Thoát";
             this.notMenuExit.Click += new System.EventHandler(this.menuExit_Click);
             // 
             // lblWelcome
@@ -1000,9 +1000,9 @@ namespace Lan_Messenger
             this.Transition_listF.SetDecoration(this.bunifuSeparator1, BunifuAnimatorNS.DecorationType.None);
             this.bunifuSeparator1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(173)))), ((int)(((byte)(239)))));
             this.bunifuSeparator1.LineThickness = 2;
-            this.bunifuSeparator1.Location = new System.Drawing.Point(2, 51);
+            this.bunifuSeparator1.Location = new System.Drawing.Point(13, 51);
             this.bunifuSeparator1.Name = "bunifuSeparator1";
-            this.bunifuSeparator1.Size = new System.Drawing.Size(242, 10);
+            this.bunifuSeparator1.Size = new System.Drawing.Size(218, 10);
             this.bunifuSeparator1.TabIndex = 25;
             this.bunifuSeparator1.Transparency = 255;
             this.bunifuSeparator1.Vertical = false;
@@ -1022,22 +1022,22 @@ namespace Lan_Messenger
             // 
             this.Transition_listF.AnimationType = BunifuAnimatorNS.AnimationType.Scale;
             this.Transition_listF.Cursor = null;
-            animation2.AnimateOnlyDifferences = true;
-            animation2.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.BlindCoeff")));
-            animation2.LeafCoeff = 0F;
-            animation2.MaxTime = 1F;
-            animation2.MinTime = 0F;
-            animation2.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicCoeff")));
-            animation2.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicShift")));
-            animation2.MosaicSize = 0;
-            animation2.Padding = new System.Windows.Forms.Padding(0);
-            animation2.RotateCoeff = 0F;
-            animation2.RotateLimit = 0F;
-            animation2.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.ScaleCoeff")));
-            animation2.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.SlideCoeff")));
-            animation2.TimeCoeff = 0F;
-            animation2.TransparencyCoeff = 0F;
-            this.Transition_listF.DefaultAnimation = animation2;
+            animation1.AnimateOnlyDifferences = true;
+            animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
+            animation1.LeafCoeff = 0F;
+            animation1.MaxTime = 1F;
+            animation1.MinTime = 0F;
+            animation1.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicCoeff")));
+            animation1.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicShift")));
+            animation1.MosaicSize = 0;
+            animation1.Padding = new System.Windows.Forms.Padding(0);
+            animation1.RotateCoeff = 0F;
+            animation1.RotateLimit = 0F;
+            animation1.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.ScaleCoeff")));
+            animation1.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.SlideCoeff")));
+            animation1.TimeCoeff = 0F;
+            animation1.TransparencyCoeff = 0F;
+            this.Transition_listF.DefaultAnimation = animation1;
             this.Transition_listF.MaxAnimationTime = 2000;
             // 
             // pic_4
@@ -1172,7 +1172,7 @@ namespace Lan_Messenger
 				{
 					if(frmContact.txtContact.Text==Global.username)
 					{
-						MessageBox.Show("You can not send private messages to yourself!");
+						MessageBox.Show("Bạn không thể gửi tin nhắn tới chính bạn được!");
 						return;
 					}
 					if(Global.windowList.Contains(frmContact.txtContact.Text))
@@ -1183,7 +1183,7 @@ namespace Lan_Messenger
 					{
 						FormMessage frmMessage = new FormMessage();
 						frmMessage.contact=frmContact.txtContact.Text;
-						frmMessage.Text=frmContact.txtContact.Text+ " - Direct messages.";
+						frmMessage.Text=frmContact.txtContact.Text+" - Tin nhắn trực tiếp.";
 						Global.windowList.Add(frmContact.txtContact.Text,frmMessage);				
 						frmMessage.Show();
 					}
@@ -1219,7 +1219,7 @@ namespace Lan_Messenger
 			{
 				FormMessage frmMessage = new FormMessage();
 				frmMessage.contact=letter.From;
-				frmMessage.Text=letter.From+ " - Direct messages.";
+				frmMessage.Text=letter.From+" - Tin nhắn trực tiếp.";
 				frmMessage.AddText(letter.From,letter.Message);
 				Global.windowList.Add(letter.From,frmMessage);
 				frmMessage.Show();
@@ -1326,7 +1326,7 @@ namespace Lan_Messenger
 
                 if (!objChatWin.remoteObj.JoinToChatRoom(Global.username))
                 {
-                    MessageBox.Show(Global.username + " Try again later!");
+                    MessageBox.Show(Global.username + " đã đăng nhập rồi!. Có thể mạng bị lag, hãy thử lại sau!");
                     ChannelServices.UnregisterChannel(chan);
                     chan = null;
                     objChatWin.Dispose();
@@ -1339,7 +1339,7 @@ namespace Lan_Messenger
             }
             else
             {
-                MessageBox.Show("An error occurred, please try again!");
+                MessageBox.Show("Đã có lỗi xảy ra khi tạo Room Chat, vui lòng thử lại!");
                 chan = null;
                 return 0; // 0: Loi
             }
@@ -1361,8 +1361,8 @@ namespace Lan_Messenger
                 tb.SoundLocation = setting[1];
             else
                 tb.SoundLocation = "sounds/Online.wav";
-            tb.Title = " ";
-            tb.Message = Global.server.GetfullName(ContactName) + " Online!";
+            tb.Title = "Lan Messenger!";
+            tb.Message = Global.server.GetfullName(ContactName) + " đã Online!";
             tb.Run();
         }
 
@@ -1375,8 +1375,8 @@ namespace Lan_Messenger
                 tb.SoundLocation = setting[2];
             else
                 tb.SoundLocation = "sounds/Offline.wav";
-            tb.Title = " ";
-            tb.Message = Global.server.GetfullName(ContactName) + " Offline!";
+            tb.Title = "Lan Messenger!";
+            tb.Message = Global.server.GetfullName(ContactName) + " đã Offline!";
             tb.Run();
         }
 
@@ -1555,7 +1555,7 @@ namespace Lan_Messenger
 				LanMessengerControls.LanMessengerContact temp = new LanMessengerControls.LanMessengerContact();
                 temp.DisplayName = Global.server.GetfullName(o as string); // Hiển thị Display Name thay vì là Username
                 temp.Contact = o as string;
-				statusBar.Text= "Added " + o as string;
+				statusBar.Text= "Added" + o as string;
 				try
 				{
 					temp.Online=Global.server.IsVisible(o as String);
@@ -1587,7 +1587,7 @@ namespace Lan_Messenger
 			{
 				FormMessage frmMessage = new FormMessage();
 				frmMessage.contact=contact;
-				frmMessage.Text= Global.server.GetfullName(contact) + " (" + contact + ")" + " - Direct messages.";
+				frmMessage.Text= Global.server.GetfullName(contact) + " (" + contact + ")" + " - Tin nhắn trực tiếp.";
 				frmMessage.Show();
 				Global.windowList.Add(contact,frmMessage);					
 			}
@@ -1626,7 +1626,7 @@ namespace Lan_Messenger
 			try
 			{
 				Global.server.SignOut(Global.username);                
-				statusBar.Text= "Signed out.";                
+				statusBar.Text="Đã đăng xuất.";                
 			}
 			catch
 			{
@@ -1665,8 +1665,8 @@ namespace Lan_Messenger
 		private void SignIn()
 		{            
 			notifyIcon.ContextMenu=null;
-			statusBar.Text= "Login action";
-            lblWelcome.Text = "Not logged in";
+			statusBar.Text="Thao tác đăng nhập";
+            lblWelcome.Text = "Chưa đăng nhập";
 			FormSignIn frmSignIn = new FormSignIn();
 			switch(frmSignIn.ShowDialog(this))
 			{
@@ -1700,11 +1700,11 @@ namespace Lan_Messenger
                     else
                         rbtnInvisible.Checked = true;
                     
-					statusBar.Text= "Logged";
+					statusBar.Text="Đã đăng nhập";
                     if (Global.server.IsVisible(Global.username))
-                        lblWelcome.Text = " " + Global.server.GetfullName(Global.username) + " ,Online.";
+                        lblWelcome.Text = "Chào " + Global.server.GetfullName(Global.username) + "! Bạn đang Online.";
                     else
-                        lblWelcome.Text = " " + Global.server.GetfullName(Global.username) + " ,Anonymously.";
+                        lblWelcome.Text = "Chào " + Global.server.GetfullName(Global.username) + "! Bạn đang đăng nhập ẩn.";
 					tmrMessageReceive.Enabled=true;
 					tmrContactUpdate.Enabled=true;
 		
@@ -1839,7 +1839,7 @@ namespace Lan_Messenger
                 this.txtSearchName.Clear();
                 this.txtSearchName.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
                 this.txtSearchName.ForeColor = System.Drawing.SystemColors.WindowFrame;
-                this.txtSearchName.Text = "Enter your friend name ...";
+                this.txtSearchName.Text = "Nhập tên bạn bè cần tìm...";
             }
         }
 
@@ -1854,7 +1854,7 @@ namespace Lan_Messenger
         // Icon bên thanh tìm kiếm
         private void picSearch_Click(object sender, EventArgs e)
         {
-            if (txtSearchName.Text != "" && txtSearchName.Text != "Enter your friend name ...")
+            if (txtSearchName.Text != "" && txtSearchName.Text != "Nhập tên bạn bè cần tìm...")
             {
                 OpenFormMessage(txtSearchName.Text.Substring(0, txtSearchName.Text.IndexOf('(') -1));
             }
@@ -1866,7 +1866,7 @@ namespace Lan_Messenger
             if (rbtnOnline.Checked == true && !Global.server.IsVisible(Global.username))
             {
                 Global.server.ChangeStatus(Global.username);
-                lblWelcome.Text = " " + Global.server.GetfullName(Global.username) + " ,Online.";
+                lblWelcome.Text = "Chào " + Global.server.GetfullName(Global.username) + "! Bạn đang Online.";
             }                
         }
 
@@ -1875,7 +1875,7 @@ namespace Lan_Messenger
             if (rbtnInvisible.Checked == true && Global.server.IsVisible(Global.username))
             {
                 Global.server.ChangeStatus(Global.username);
-                lblWelcome.Text = " " + Global.server.GetfullName(Global.username) + " ,Anonymously.";
+                lblWelcome.Text = "Chào " + Global.server.GetfullName(Global.username) + "! Bạn đang đăng nhập ẩn.";
             }                
         }
 

@@ -580,7 +580,7 @@ namespace Lan_Messenger
 
                 if (!objChatWin.remoteObj.JoinToChatRoom(Global.username))
                 {
-                    MessageBox.Show(Global.username + " Signed in! Can lag network, try again later!");
+                    MessageBox.Show(Global.username + " đã đăng nhập rồi!. Có thể mạng bị lag, hãy thử lại sau!");
                     ChannelServices.UnregisterChannel(chan);
                     chan = null;
                     objChatWin.Dispose();
@@ -592,7 +592,7 @@ namespace Lan_Messenger
             }
             else
             {
-                MessageBox.Show("An error occurred while creating Room Chat, please try again later!");
+                MessageBox.Show("Đã có lỗi xảy ra khi tạo Room Chat, vui lòng thử lại sau!");
                 ChannelServices.UnregisterChannel(chan);
                 chan = null;
             }
@@ -1070,7 +1070,7 @@ namespace Lan_Messenger
             }
             else
             {
-                MessageBox.Show("This person does not have Online to perform file transfer. Please try again later! ", " Error!");
+                MessageBox.Show("Người này hiện không có Online để thực hiện việc truyền tải file. Vui lòng thử lại vào lúc khác!","Lỗi!");
             }
         }
 
@@ -1084,7 +1084,7 @@ namespace Lan_Messenger
             }
             else
             {
-                MessageBox.Show("This person does not have Online to perform file transfer. Please try again later! ", " Error!");
+                MessageBox.Show("Người này hiện không có Online để chia sẻ hình ảnh. Vui lòng thử lại vào lúc khác!", "Lỗi!");
             }
         }
 
@@ -1122,7 +1122,7 @@ namespace Lan_Messenger
             IPServerPhoto = IP.AddressList[0].ToString();
             fm = new FormPhotoReceive();
             fm.Show();
-            Global.server.Send(Global.username, contact, " Accepted image sharing request (IP: " + IPServerPhoto + ")"); // Thông báo tới người gửi
+            Global.server.Send(Global.username, contact, " cmd-SharePhoto: Đã chấp nhận yêu cầu chia sẻ hình ảnh (IP: " + IPServerPhoto + ")"); // Thông báo tới người gửi
         }
         
         // Client kết nối tới Server để gửi file

@@ -19,7 +19,7 @@ namespace Lan_Messenger
         private void butBuzz_Click(object sender, EventArgs e)
         {
             OpenFileDialog fileopen = new OpenFileDialog();
-            fileopen.Title = " Select audio file";
+            fileopen.Title = " Chọn file âm anh";
             fileopen.Filter = "Sound Files|*.wav";
             fileopen.InitialDirectory = @"C:\";
             if (fileopen.ShowDialog() == DialogResult.OK)
@@ -29,7 +29,7 @@ namespace Lan_Messenger
         private void butOnoff_Click(object sender, EventArgs e)
         {
             OpenFileDialog fileopen = new OpenFileDialog();
-            fileopen.Title = " Select audio file";
+            fileopen.Title = " Chọn file âm anh";
             fileopen.Filter = "Sound Files|*.wav";
             fileopen.InitialDirectory = @"C:\";
             if (fileopen.ShowDialog() == DialogResult.OK)
@@ -40,7 +40,7 @@ namespace Lan_Messenger
         private void btnOff_Click(object sender, EventArgs e)
         {
             OpenFileDialog fileopen = new OpenFileDialog();
-            fileopen.Title = " Select audio file";
+            fileopen.Title = " Chọn file âm anh";
             fileopen.Filter = "Sound Files|*.wav";
             fileopen.InitialDirectory = @"C:\";
             if (fileopen.ShowDialog() == DialogResult.OK)
@@ -50,7 +50,7 @@ namespace Lan_Messenger
         private void btMessenger_Click(object sender, EventArgs e)
         {
             OpenFileDialog fileopen = new OpenFileDialog();
-            fileopen.Title = " Select audio file";
+            fileopen.Title = " Chọn file âm anh";
             fileopen.Filter = "Sound Files|*.wav";
             fileopen.InitialDirectory = @"C:\";
             if (fileopen.ShowDialog() == DialogResult.OK)
@@ -81,9 +81,9 @@ namespace Lan_Messenger
         }
         private void btnOK_Click(object sender, EventArgs e)
         {
-            if (txtBuzz.Text == "File not found" || txtOn.Text == "File not found" || txtOff.Text == "File not found" || txtMessenger.Text == "File not found" || txtPath.Text == "Folder not found")
+            if (txtBuzz.Text == "Không tìm thấy file" || txtOn.Text == "Không tìm thấy file" || txtOff.Text == "Không tìm thấy file" || txtMessenger.Text == "Không tìm thấy file" || txtPath.Text == "Không tìm thấy thư mục")
             {
-                MessageBox.Show("Please select the path again ", " Error");
+                MessageBox.Show("Vui lòng chọn lại đường dẫn", "Lỗi");
             }
             else
             {
@@ -224,7 +224,7 @@ namespace Lan_Messenger
                 fs1.Close();
                 if (!File.Exists(setting[0]))
                 {
-                    txtBuzz.Text = "File not found";
+                    txtBuzz.Text = "Không tìm thấy file";
                 }
                 else
                 {
@@ -232,7 +232,7 @@ namespace Lan_Messenger
                 }
                 if (!File.Exists(setting[1]))
                 {
-                    txtOn.Text = "File not found";
+                    txtOn.Text = "Không tìm thấy file";
                 }
                 else
                 {
@@ -240,7 +240,7 @@ namespace Lan_Messenger
                 }
                 if (!File.Exists(setting[2]))
                 {
-                    txtOff.Text = "File not found";
+                    txtOff.Text = "Không tìm thấy file";
                 }
                 else
                 {
@@ -248,7 +248,7 @@ namespace Lan_Messenger
                 }
                 if (!File.Exists(setting[3]))
                 {
-                    txtMessenger.Text = "File not found";
+                    txtMessenger.Text = "Không tìm thấy file";
                 }
                 else
                 {
@@ -256,7 +256,7 @@ namespace Lan_Messenger
                 }
                 if (!Directory.Exists(setting[4]))
                 {
-                    txtPath.Text = "File not found";
+                    txtPath.Text = "Không tìm thấy thư mục";
                 }
                 else
                 {
@@ -289,31 +289,31 @@ namespace Lan_Messenger
                string s0,s1,s2,s3,s4;
                 if(!File.Exists(@"sounds/Call.wav"))
                 {
-                    s0= "File not found";
+                    s0="Không tìm thấy file";
                 }
                 else
                     s0 = Path.GetFullPath(@"sounds/Call.wav");
                 if (!File.Exists(@"sounds/On.wav"))
                 {
-                    s1 = "File not found";
+                    s1 = "Không tìm thấy file";
                 }
                 else
                     s1 = Path.GetFullPath(@"sounds/On.wav");
                 if (!File.Exists(@"sounds/Off.wav"))
                 {
-                    s2 = "File not found";
+                    s2 = "Không tìm thấy file";
                 }
                 else
                     s2 = Path.GetFullPath(@"sounds/Off.wav");
                 if (!File.Exists(@"sounds/Mess.wav"))
                 {
-                    s3 = "File not found";
+                    s3 = "Không tìm thấy file";
                 }
                 else
                     s3 = Path.GetFullPath(@"sounds/Mess.wav");
                 if(!Directory.Exists(@"files"))
                 {
-                    s4= "Folder not found";
+                    s4="Không tìm thấy thư mục";
                 }
                 else
                     s4 = Path.GetFullPath(@"files");
@@ -338,9 +338,9 @@ namespace Lan_Messenger
           
         private void picPlaybuzz_Click(object sender, EventArgs e)
         {
-            if (txtBuzz.Text == "File not found")
+            if (txtBuzz.Text == "Không tìm thấy file")
             {
-                MessageBox.Show("Please select the path again ", " Error");
+                MessageBox.Show("Vui lòng chọn lại đường dẫn", "Lỗi");
             }
             else
             {
@@ -352,9 +352,9 @@ namespace Lan_Messenger
 
         private void picPlayon_Click(object sender, EventArgs e)
         {
-            if (txtOn.Text == "File not found")
+            if (txtOn.Text == "Không tìm thấy file")
             {
-                MessageBox.Show("Please select the path again ", " Error");
+                MessageBox.Show("Vui lòng chọn lại đường dẫn", "Lỗi");
             }
             else
             {
@@ -366,9 +366,9 @@ namespace Lan_Messenger
 
         private void picPlayoff_Click(object sender, EventArgs e)
         {
-            if (txtOff.Text == "File not found")
+            if (txtOff.Text == "Không tìm thấy file")
             {
-                MessageBox.Show("Please select the path again ", " Error");
+                MessageBox.Show("Vui lòng chọn lại đường dẫn", "Lỗi");
             }
             else
             {
@@ -380,9 +380,9 @@ namespace Lan_Messenger
 
         private void picPlaymess_Click(object sender, EventArgs e)
         {
-            if (txtMessenger.Text == "File not found")
+            if (txtMessenger.Text == "Không tìm thấy file")
             {
-                MessageBox.Show("Please select the path again "," Error");
+                MessageBox.Show("Vui lòng chọn lại đường dẫn", "Lỗi");
             }
             else
             {
@@ -394,9 +394,9 @@ namespace Lan_Messenger
 
         private void FormClosing_Click(object sender, FormClosingEventArgs e)
         {
-            if (txtBuzz.Text == "File not found" || txtOn.Text == "File not found" || txtOff.Text == "File not found" || txtMessenger.Text == "File not found" || txtPath.Text == "Folder not found")
+            if (txtBuzz.Text == "Không tìm thấy file" || txtOn.Text == "Không tìm thấy file" || txtOff.Text == "Không tìm thấy file" || txtMessenger.Text == "Không tìm thấy file" || txtPath.Text == "Không tìm thấy thư mục")
             {
-                MessageBox.Show("Please select the path again "," Error");
+                MessageBox.Show("Vui lòng chọn lại đường dẫn", "Lỗi");
                 e.Cancel = true;
             }                        
         }

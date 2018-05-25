@@ -55,12 +55,12 @@ namespace Lan_Messenger
             fileNameLen.CopyTo(clientData, 0);
             fileName.CopyTo(clientData, 4);
             fileData.CopyTo(clientData, 4 + fileName.Length);
-            lblStatus.Text = "Connecting to recipient ...";
+            lblStatus.Text = "Đang kết nối tới người nhận...";
             clientSock.Connect(IP, 6565); // IP máy đích
-            lblStatus.Text = "Transmitting data...";
+            lblStatus.Text = "Đang truyền tải dữ liệu. Làm ơn đợi...";
             clientSock.Send(clientData);
             clientSock.Close();
-            lblStatus.Text = "Successfully sent file: " + Path.GetFileName(txtFileLink.Text);
+            lblStatus.Text = "Đã gửi thành công file: " + Path.GetFileName(txtFileLink.Text);
         }
 
         private void btnClose_Click(object sender, EventArgs e)

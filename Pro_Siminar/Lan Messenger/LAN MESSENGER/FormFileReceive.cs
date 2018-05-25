@@ -73,7 +73,7 @@ namespace Lan_Messenger
                     allDone.Reset();
                     listener.BeginAccept(new AsyncCallback(AcceptCallback), listener);
                     allDone.WaitOne();
-                    UpdateStatus("File received successfully!");
+                    UpdateStatus("Đã nhận file thành công!");
                 }
             }
             catch (Exception ex)
@@ -110,7 +110,7 @@ namespace Lan_Messenger
                     fileNameLen = BitConverter.ToInt32(state.buffer, 0);
                     string fileName = Encoding.UTF8.GetString(state.buffer, 4, fileNameLen);
                     FileName = fileName;
-                    UpdateStatus("Receiving File ...");
+                    UpdateStatus("Đang nhận File...");
                     flag++;
                 }
                 if (flag >= 1)
@@ -130,7 +130,7 @@ namespace Lan_Messenger
             }
             else
             {
-                UpdateStatus("File received successfully!");
+                UpdateStatus("Đã nhận File thành công!");
             }        
         }
 
@@ -156,9 +156,8 @@ namespace Lan_Messenger
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (lblStatus.Text != "File received successfully!")
-                //MessageBox.Show("Please wait...", " ",MessageBoxButtons.YesNo);
-                this.Close();
+            if (lblStatus.Text != "Đã nhận File thành công!")
+                MessageBox.Show("Vui lòng chờ cho đến khi quá trình truyền tải file thành công");
             else
             {
                 this.Hide();

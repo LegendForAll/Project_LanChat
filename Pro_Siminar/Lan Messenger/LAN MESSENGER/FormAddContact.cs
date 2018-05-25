@@ -179,7 +179,7 @@ namespace Lan_Messenger
 		{
 			if(Global.username==txtContact.Text)
 			{
-				MessageBox.Show("You can not add yourself to the list!");
+				MessageBox.Show("Bạn không thể thêm chính bạn vào danh sách được!");
 				txtContact.Text="";
 				this.DialogResult=DialogResult.None;
 				return;
@@ -199,9 +199,9 @@ namespace Lan_Messenger
                         check = true;                        
                         break;
                     }
-                if (check) MessageBox.Show("This user is already in the buddies list");
+                if (check) MessageBox.Show("Người dùng này đã có trong danh sách bạn bè của bạn");
                 else
-                    MessageBox.Show("This user does not exist in the database!");
+                    MessageBox.Show("Người dùng này không tồn tại trong cơ sở dữ liệu!");
 				this.DialogResult=DialogResult.None;
 			}
 		}

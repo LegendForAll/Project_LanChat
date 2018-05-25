@@ -38,3 +38,13 @@ C:\Users\HoThaiNgoc\Desktop\Pro_Siminar\Lan Messenger\LanMessengerContact\obj\De
 C:\Users\HoThaiNgoc\Desktop\Pro_Siminar\Lan Messenger\LanMessengerContact\obj\Debug\LanMessengerContact.pdb
 C:\Users\HoThaiNgoc\Desktop\Pro_Siminar\Lan Messenger\LanMessengerContact\bin\Debug\LanMessengerLib.dll
 C:\Users\HoThaiNgoc\Desktop\Pro_Siminar\Lan Messenger\LanMessengerContact\bin\Debug\LanMessengerLib.pdb
+D:\GITHUB\Project_LanChatV3\Pro_Siminar\Lan Messenger\LanMessengerContact\bin\Debug\LanMessengerContact.dll
+D:\GITHUB\Project_LanChatV3\Pro_Siminar\Lan Messenger\LanMessengerContact\bin\Debug\LanMessengerContact.pdb
+D:\GITHUB\Project_LanChatV3\Pro_Siminar\Lan Messenger\LanMessengerContact\bin\Debug\LanMessengerLib.dll
+D:\GITHUB\Project_LanChatV3\Pro_Siminar\Lan Messenger\LanMessengerContact\bin\Debug\LanMessengerLib.pdb
+D:\GITHUB\Project_LanChatV3\Pro_Siminar\Lan Messenger\LanMessengerContact\obj\Debug\LanMessengerContact.csprojResolveAssemblyReference.cache
+D:\GITHUB\Project_LanChatV3\Pro_Siminar\Lan Messenger\LanMessengerContact\obj\Debug\LanMessengerContact.Properties.Resources.resources
+D:\GITHUB\Project_LanChatV3\Pro_Siminar\Lan Messenger\LanMessengerContact\obj\Debug\LanMessengerControls.LanMessengerContact.resources
+D:\GITHUB\Project_LanChatV3\Pro_Siminar\Lan Messenger\LanMessengerContact\obj\Debug\LanMessengerContact.csproj.GenerateResource.Cache
+D:\GITHUB\Project_LanChatV3\Pro_Siminar\Lan Messenger\LanMessengerContact\obj\Debug\LanMessengerContact.dll
+D:\GITHUB\Project_LanChatV3\Pro_Siminar\Lan Messenger\LanMessengerContact\obj\Debug\LanMessengerContact.pdb

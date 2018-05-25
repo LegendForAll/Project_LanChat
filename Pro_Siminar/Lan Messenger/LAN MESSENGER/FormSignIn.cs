@@ -215,7 +215,7 @@ namespace Lan_Messenger
             this.chkInvisible.Name = "chkInvisible";
             this.chkInvisible.Size = new System.Drawing.Size(112, 16);
             this.chkInvisible.TabIndex = 3;
-            this.chkInvisible.Text = "Anonymously";
+            this.chkInvisible.Text = "Đăng nhập ẩn";
             // 
             // txtPassword
             // 
@@ -251,7 +251,7 @@ namespace Lan_Messenger
             this.btnSignIn.Name = "btnSignIn";
             this.btnSignIn.Size = new System.Drawing.Size(206, 39);
             this.btnSignIn.TabIndex = 0;
-            this.btnSignIn.Text = "Log in";
+            this.btnSignIn.Text = "Đăng Nhập";
             this.btnSignIn.Click += new System.EventHandler(this.btnSignIn_Click);
             // 
             // panel2
@@ -590,7 +590,7 @@ namespace Lan_Messenger
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Log in";
+            this.Text = "Đăng nhập";
             this.Closing += new System.ComponentModel.CancelEventHandler(this.FormSignIn_Closing);
             this.groupBox1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
@@ -629,19 +629,19 @@ namespace Lan_Messenger
                     }
                     else
                     {
-                        MessageBox.Show("Username or password incorrect. Please check again! ", " Login error ...");
+                        MessageBox.Show("Tên người dùng hoặc mật khẩu không đúng. Vui lòng kiểm tra lại!","Lỗi đăng nhập...");
                         this.DialogResult = DialogResult.None;
                     }
                 }
                 catch
                 {
-                    MessageBox.Show("Error connecting to Server. Please check the connection and try again! ", " Connection error ...");
+                    MessageBox.Show("Lỗi kết nối tới Server. Vui lòng kiểm tra kết nối và thử lại!", "Lỗi kết nối...");
                     this.DialogResult = DialogResult.Cancel;
                 }
             }
             else
             {
-                MessageBox.Show("Error! Please enter your username and password! ", " Login error ...");
+                MessageBox.Show("Lỗi! Vui lòng nhập tên tài khoản và mật khẩu!", "Lỗi đăng nhập...");
                 this.DialogResult = DialogResult.None;
             }
 		}

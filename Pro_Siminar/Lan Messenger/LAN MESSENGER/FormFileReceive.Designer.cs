@@ -59,7 +59,7 @@
             this.lblStatus.AutoSize = true;
             this.lblStatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblStatus.ForeColor = System.Drawing.Color.Green;
-            this.lblStatus.Location = new System.Drawing.Point(15, 58);
+            this.lblStatus.Location = new System.Drawing.Point(198, 26);
             this.lblStatus.Name = "lblStatus";
             this.lblStatus.Size = new System.Drawing.Size(163, 13);
             this.lblStatus.TabIndex = 2;
@@ -80,7 +80,7 @@
             // 
             this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClose.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(173)))), ((int)(((byte)(239)))));
-            this.btnClose.Location = new System.Drawing.Point(283, 93);
+            this.btnClose.Location = new System.Drawing.Point(277, 61);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(84, 23);
             this.btnClose.TabIndex = 4;
@@ -92,7 +92,7 @@
             // 
             this.btnOpenFolder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnOpenFolder.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(173)))), ((int)(((byte)(239)))));
-            this.btnOpenFolder.Location = new System.Drawing.Point(190, 93);
+            this.btnOpenFolder.Location = new System.Drawing.Point(184, 61);
             this.btnOpenFolder.Name = "btnOpenFolder";
             this.btnOpenFolder.Size = new System.Drawing.Size(81, 23);
             this.btnOpenFolder.TabIndex = 5;
@@ -152,7 +152,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(379, 128);
+            this.ClientSize = new System.Drawing.Size(379, 98);
             this.Controls.Add(this.bunifuSeparator3);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel1);

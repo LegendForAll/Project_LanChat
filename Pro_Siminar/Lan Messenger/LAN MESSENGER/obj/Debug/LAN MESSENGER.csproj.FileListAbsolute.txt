@@ -230,3 +230,47 @@ C:\Users\HoThaiNgoc\Desktop\Pro_Siminar\Lan Messenger\LAN MESSENGER\bin\Debug\La
 C:\Users\HoThaiNgoc\Desktop\Pro_Siminar\Lan Messenger\LAN MESSENGER\bin\Debug\LanMessengerLib.dll
 C:\Users\HoThaiNgoc\Desktop\Pro_Siminar\Lan Messenger\LAN MESSENGER\bin\Debug\LanMessengerContact.pdb
 C:\Users\HoThaiNgoc\Desktop\Pro_Siminar\Lan Messenger\LAN MESSENGER\bin\Debug\LanMessengerLib.pdb
+D:\GITHUB\Project_LanChatV3\Pro_Siminar\Lan Messenger\LAN MESSENGER\bin\Debug\Lan Messenger.exe.config
+D:\GITHUB\Project_LanChatV3\Pro_Siminar\Lan Messenger\LAN MESSENGER\obj\Debug\Interop.WMPLib.dll
+D:\GITHUB\Project_LanChatV3\Pro_Siminar\Lan Messenger\LAN MESSENGER\obj\Debug\AxInterop.WMPLib.dll
+D:\GITHUB\Project_LanChatV3\Pro_Siminar\Lan Messenger\LAN MESSENGER\obj\Debug\LAN MESSENGER.csproj.ResolveComReference.cache
+D:\GITHUB\Project_LanChatV3\Pro_Siminar\Lan Messenger\LAN MESSENGER\obj\Debug\Lan Messenger.exe
+D:\GITHUB\Project_LanChatV3\Pro_Siminar\Lan Messenger\LAN MESSENGER\obj\Debug\Lan Messenger.pdb
+D:\GITHUB\Project_LanChatV3\Pro_Siminar\Lan Messenger\LAN MESSENGER\bin\Debug\Lan Messenger.exe
+D:\GITHUB\Project_LanChatV3\Pro_Siminar\Lan Messenger\LAN MESSENGER\bin\Debug\Lan Messenger.pdb
+D:\GITHUB\Project_LanChatV3\Pro_Siminar\Lan Messenger\LAN MESSENGER\bin\Debug\LanMessengerChatRoomBase.dll
+D:\GITHUB\Project_LanChatV3\Pro_Siminar\Lan Messenger\LAN MESSENGER\bin\Debug\LanMessengerContact.dll
+D:\GITHUB\Project_LanChatV3\Pro_Siminar\Lan Messenger\LAN MESSENGER\bin\Debug\LanMessengerLib.dll
+D:\GITHUB\Project_LanChatV3\Pro_Siminar\Lan Messenger\LAN MESSENGER\bin\Debug\LanMessengerNotify.dll
+D:\GITHUB\Project_LanChatV3\Pro_Siminar\Lan Messenger\LAN MESSENGER\bin\Debug\LanMessengerContact.pdb
+D:\GITHUB\Project_LanChatV3\Pro_Siminar\Lan Messenger\LAN MESSENGER\bin\Debug\DirectX.Capture.pdb
+D:\GITHUB\Project_LanChatV3\Pro_Siminar\Lan Messenger\LAN MESSENGER\bin\Debug\DShowNET.pdb
+D:\GITHUB\Project_LanChatV3\Pro_Siminar\Lan Messenger\LAN MESSENGER\bin\Debug\LanMessengerChatRoomBase.pdb
+D:\GITHUB\Project_LanChatV3\Pro_Siminar\Lan Messenger\LAN MESSENGER\bin\Debug\LanMessengerLib.pdb
+D:\GITHUB\Project_LanChatV3\Pro_Siminar\Lan Messenger\LAN MESSENGER\bin\Debug\LanMessengerNotify.pdb
+D:\GITHUB\Project_LanChatV3\Pro_Siminar\Lan Messenger\LAN MESSENGER\bin\Debug\Interop.WMPLib.dll
+D:\GITHUB\Project_LanChatV3\Pro_Siminar\Lan Messenger\LAN MESSENGER\bin\Debug\AxInterop.WMPLib.dll
+D:\GITHUB\Project_LanChatV3\Pro_Siminar\Lan Messenger\LAN MESSENGER\obj\Debug\LAN MESSENGER.csprojResolveAssemblyReference.cache
+D:\GITHUB\Project_LanChatV3\Pro_Siminar\Lan Messenger\LAN MESSENGER\obj\Debug\Lan_Messenger.FormChangeDisplayName.resources
+D:\GITHUB\Project_LanChatV3\Pro_Siminar\Lan Messenger\LAN MESSENGER\obj\Debug\Lan_Messenger.FormChatRoom.resources
+D:\GITHUB\Project_LanChatV3\Pro_Siminar\Lan Messenger\LAN MESSENGER\obj\Debug\Lan_Messenger.FormJoinRoom.resources
+D:\GITHUB\Project_LanChatV3\Pro_Siminar\Lan Messenger\LAN MESSENGER\obj\Debug\Lan_Messenger.FormLogsReader.resources
+D:\GITHUB\Project_LanChatV3\Pro_Siminar\Lan Messenger\LAN MESSENGER\obj\Debug\Lan_Messenger.FormMusicPlayer.resources
+D:\GITHUB\Project_LanChatV3\Pro_Siminar\Lan Messenger\LAN MESSENGER\obj\Debug\Lan_Messenger.FormOption.resources
+D:\GITHUB\Project_LanChatV3\Pro_Siminar\Lan Messenger\LAN MESSENGER\obj\Debug\Lan_Messenger.Form1.resources
+D:\GITHUB\Project_LanChatV3\Pro_Siminar\Lan Messenger\LAN MESSENGER\obj\Debug\Lan_Messenger.FormAbout.resources
+D:\GITHUB\Project_LanChatV3\Pro_Siminar\Lan Messenger\LAN MESSENGER\obj\Debug\Lan_Messenger.FormAddContact.resources
+D:\GITHUB\Project_LanChatV3\Pro_Siminar\Lan Messenger\LAN MESSENGER\obj\Debug\Lan_Messenger.FormChangePassword.resources
+D:\GITHUB\Project_LanChatV3\Pro_Siminar\Lan Messenger\LAN MESSENGER\obj\Debug\Lan_Messenger.FormCreateAccount.resources
+D:\GITHUB\Project_LanChatV3\Pro_Siminar\Lan Messenger\LAN MESSENGER\obj\Debug\Lan_Messenger.FormFileReceive.resources
+D:\GITHUB\Project_LanChatV3\Pro_Siminar\Lan Messenger\LAN MESSENGER\obj\Debug\Lan_Messenger.FormFileSender.resources
+D:\GITHUB\Project_LanChatV3\Pro_Siminar\Lan Messenger\LAN MESSENGER\obj\Debug\Lan_Messenger.FormMessage.resources
+D:\GITHUB\Project_LanChatV3\Pro_Siminar\Lan Messenger\LAN MESSENGER\obj\Debug\Lan_Messenger.FormNetworkSettings.resources
+D:\GITHUB\Project_LanChatV3\Pro_Siminar\Lan Messenger\LAN MESSENGER\obj\Debug\Lan_Messenger.FormOfflineMessages.resources
+D:\GITHUB\Project_LanChatV3\Pro_Siminar\Lan Messenger\LAN MESSENGER\obj\Debug\Lan_Messenger.FormPhotoReceive.resources
+D:\GITHUB\Project_LanChatV3\Pro_Siminar\Lan Messenger\LAN MESSENGER\obj\Debug\Lan_Messenger.FormPhotoSend.resources
+D:\GITHUB\Project_LanChatV3\Pro_Siminar\Lan Messenger\LAN MESSENGER\obj\Debug\Lan_Messenger.FormSelectContact.resources
+D:\GITHUB\Project_LanChatV3\Pro_Siminar\Lan Messenger\LAN MESSENGER\obj\Debug\Lan_Messenger.FormSignIn.resources
+D:\GITHUB\Project_LanChatV3\Pro_Siminar\Lan Messenger\LAN MESSENGER\obj\Debug\Lan_Messenger.FormWebcam.resources
+D:\GITHUB\Project_LanChatV3\Pro_Siminar\Lan Messenger\LAN MESSENGER\obj\Debug\Lan_Messenger.Properties.Resources.resources
+D:\GITHUB\Project_LanChatV3\Pro_Siminar\Lan Messenger\LAN MESSENGER\obj\Debug\LAN MESSENGER.csproj.GenerateResource.Cache

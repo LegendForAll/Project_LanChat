@@ -20,8 +20,8 @@ namespace Lan_Messenger
 
         public void InitializeListView()
         {
-            ColumnHeader header1 = this.lvListMessage.Columns.Add("User", 27 * Convert.ToInt32(lvListMessage.Font.SizeInPoints), HorizontalAlignment.Center);
-            ColumnHeader header2 = this.lvListMessage.Columns.Add("Time", 20 * Convert.ToInt32(lvListMessage.Font.SizeInPoints), HorizontalAlignment.Center);
+            ColumnHeader header1 = this.lvListMessage.Columns.Add("Tên", 27 * Convert.ToInt32(lvListMessage.Font.SizeInPoints), HorizontalAlignment.Center);
+            ColumnHeader header2 = this.lvListMessage.Columns.Add("Thời gian", 20 * Convert.ToInt32(lvListMessage.Font.SizeInPoints), HorizontalAlignment.Center);
         }
         string path = "logs/" + Global.username + "/"; // đường dẫn mặc định
         string[] listContact;
@@ -120,7 +120,7 @@ namespace Lan_Messenger
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
-            switch (MessageBox.Show("Are you sure you want to delete this chat log? ", " Delete log chat ...", MessageBoxButtons.YesNo))
+            switch (MessageBox.Show("Bạn chắc chắn muốn xóa log Chat này", "Xóa log chat...", MessageBoxButtons.YesNo))
             { 
                 case DialogResult.Yes:
                     for (int i = 0; i < lvListMessage.Items.Count; i++)

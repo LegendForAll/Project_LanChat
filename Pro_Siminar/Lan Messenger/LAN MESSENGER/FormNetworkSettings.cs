@@ -201,7 +201,7 @@ namespace Lan_Messenger
 
 		private void btnOK_Click(object sender, System.EventArgs e)
 		{
-			switch(MessageBox.Show("Are you sure? You will need to log back in. ", " Change settings?", MessageBoxButtons.YesNoCancel))
+			switch(MessageBox.Show("Bạn có chắc chắn muốn thay đổi thiết lập mạng không? Bạn sẻ cần phải đăng nhập trở lại.","Thay đổi thiết lập?",MessageBoxButtons.YesNoCancel))
 			{
 				case DialogResult.Yes:
 					FileStream fs = new FileStream("NetSetting.Dat",FileMode.Create);

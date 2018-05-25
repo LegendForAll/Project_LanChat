@@ -31,11 +31,11 @@ namespace Lan_Messenger
                 if (Global.server.IsVisible(txtNick.Text))
                     OpenRoom();
                 else
-                    MessageBox.Show("This person is not online ", " Error!");
+                    MessageBox.Show("Người này hiện không online để tạo Room","Lỗi!");
                 //Download source code FREE tai Sharecode.vn
             }
             else
-                MessageBox.Show("Please indicate Nick's Room Creator "," Error!");
+                MessageBox.Show("Vui lòng cho biết Nick của người tạo Room", "Lỗi!");
         }
 
         // Delegate để UnregisterChannel khi FormChatRoom đóng
@@ -67,7 +67,7 @@ namespace Lan_Messenger
 
                 if (!objChatWin.remoteObj.JoinToChatRoom(Global.username))
                 {
-                    MessageBox.Show(Global.username + " Signed in! Can lag network, try again later!");
+                    MessageBox.Show(Global.username + " đã đăng nhập rồi!. Có thể mạng bị lag, hãy thử lại sau!");
                     ChannelServices.UnregisterChannel(chan);
                     chan = null;
                     objChatWin.Dispose();
@@ -81,7 +81,7 @@ namespace Lan_Messenger
             }
             else
             {
-                MessageBox.Show("An error occurred while creating Room Chat, please try again later!");
+                MessageBox.Show("Đã có lỗi xảy ra khi tạo Room Chat, vui lòng thử lại sau!");
                 ChannelServices.UnregisterChannel(chan);
                 chan = null;
             }

@@ -443,22 +443,22 @@ namespace Lan_Messenger
 				{
 					if(Global.server.ChangePassword(txtUsername.Text,txtCurPassword.Text,txtNewPassword.Text))
 					{
-						MessageBox.Show("Password changed successfully!");
+						MessageBox.Show("Mật khẩu của bạn đã được thay đổi thành công!");
 					}
 					else
 					{
-						MessageBox.Show("Operation failed. Please check the information!");
+						MessageBox.Show("Thao tác không thành công. Vui lòng kiểm tra lại thông tin!");
 						this.DialogResult=DialogResult.None;
 					}
 				}
 				catch
 				{
-                    MessageBox.Show("Error connecting to Server. Please check the connection and try again!");
+                    MessageBox.Show("Lỗi kết nối tới Server. Vui lòng kiểm tra kết nối và thử lại!");
 				}
 			}
 			else
 			{
-				MessageBox.Show("Passwords do not match!");
+				MessageBox.Show("Mật khẩu xác nhận không khớp!");
 				this.DialogResult=DialogResult.None;
 			}
 		}
@@ -474,11 +474,11 @@ namespace Lan_Messenger
         private void btnChange_Click(object sender, EventArgs e)
         {
             if (txtName.Text == "")
-                MessageBox.Show("Display name can not be empty ", " Error!");
+                MessageBox.Show("Tên hiển thị không được rỗng, vui lòng chọn tên hiển thị khác", "Lỗi!");
             else
             {
                 Global.server.ChangeDisplayName(Global.username, txtName.Text);
-                MessageBox.Show("Your display name has been changed successfully. Please log back in to see the change");
+                MessageBox.Show("Tên hiển thị của bạn đã được thay đổi thành công. Vui lòng đăng nhập trở lại để thấy sự thay đổi");
                 this.Close();
             }
         }
